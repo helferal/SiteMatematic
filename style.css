@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Saira+Condensed:wght@200;300;400;700&display=swap');
+body{font-family: 'Kalam', cursive;
+}
+html * {
+  margin: 0;
+  padding: 0;
+}
+#topo {
+  background-image: url("imagem/header1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  padding: 120px 100px;
+}
+#fundoindex{
+  background-image:url("imagem/fundoindex.jpg");
+  align-items: center;
+  background-size: cover;
+
+}
+body{
+  background-image:url("imagem/fundo5.jpg");
+/*  align-items: center;
+  background-size: cover;*/
+}
+
+header {padding: 5px 15px;}
+/* -------Criação de grid --------*/
+.materia {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 10px;
+  padding:10px;
+  border: 2px;
+  /*background-color: #F2B705;*/
+  align-items: center;
+}
+#caixa {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  padding: 10px 60px;
+  }
+#aulas {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+    padding: 10px 60px;
+    }
+#organiz{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px 100px;
+    }
+/*.cartao{
+  border: 2px solid #F2B705;
+  border-radius: 8px;
+  padding: 60px;
+  image-
+}*/
+h2{
+  background-position: center;
+  text-align: center;
+  padding:10px;
+  color: white;
+}
+img {max-width: 100%;
+border-radius: 10px;
+}
+footer {
+  background-color: #F2B705;
+  align-items: center;
+  padding: 40px;
+  align-content: center;
+}
+#mat {
+  align-items: center;
+  align-self: center;
+}
+/*-------Alteração no botão ------*/
+.bt {
+  background-color: orange;
+  border-radius: 8px;
+  color: #000;
+  padding: 10px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+}
+.bt:hover {
+  background-color:#7AADFF;
+
+}
+/* Selecionamos o elemento nav e mudamos seu modo para grid, criando tantas colunas quanto necessárias para todos os items dentro do menu de navegação */
+nav {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
+}
+/* Selecionamos os anchors"ancoras>" dentro da nav para dar as características sem precisar de criar uma */
+nav > a {
+  color: white;
+  font-size: 20px;
+  padding: 20px 10px;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.3s; /* permite transições mais suaves de estados */
+}
+nav > a:hover{
+  color:#7AADFF;
+}
+iframe{
+  display: block;
+  max-width: 100%;
+  margin: 24px auto;
+}
+.cart:hover {
+  opacity: 0.8;
+}
+p{
+  color: white;
+}
+h3{
+  color: #7AADFF;
+  align: center;
+}
